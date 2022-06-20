@@ -88,7 +88,7 @@ print(f"The fair or present value of the loan is: ${present_value: .2f}")
 #    Else, the present value of the loan is less than the loan cost, then print a message that says that the loan is too expensive and not worth the price.
 # YOUR CODE HERE!
 if present_value >= loan_price:
-    print(f"Because the preseent value is greater than or equal to the loan price, the loan is worth at least the cost to buy it")
+    print(f"Because the present value is greater than or equal to the loan price, the loan is worth at least the cost to buy it")
 else:
     print(f"The present value of the loan is less than the loan cost, the loan is too expensive and not worth the price")
 """Part 3: Perform Financial Calculations.
