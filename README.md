@@ -25,9 +25,7 @@ python loan_analyzer.py
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
-
----
+## ![Screenshot of the loan_analyzer.py and the gitbash terminal](<Screenshot(4).png>)
 
 ## Contributors
 
