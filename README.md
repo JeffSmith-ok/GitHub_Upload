@@ -14,11 +14,10 @@ I have a dev environment activated on my system with the Python 3.7.13 version.
 
 Git clone the repo, and run it, including by python loan_analyzer.py.
 
-Note the following:
+Run the following:
 
 ```
-python
-text = 'This is a sentence that you would like to display.'
+python loan_analyzer.py
 
 ```
 
@@ -36,8 +35,8 @@ This is the first of the individual learning challenges.
 
 My contact information is:
 
-Linkedin: https://www.linkedin.com/in/jeffsmith77/
-Personal email: jmstranslate@gmail.com
+Linkedin: https://www.linkedin.com/in/jeffsmith77/ </br>
+Personal email: jmstranslate@gmail.com </br>
 Phone: 332 238 5209
 
 ---
