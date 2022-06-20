@@ -12,11 +12,13 @@ I have a dev environment activated on my system with the Python 3.7.13 version.
 
 ## Installation Guide
 
-Git clone the repo, and run it, including by python loan_analyzer.py.
-
-Run the following:
+Git clone the repo, and run it, pursuant to the following:
 
 ```
+git clone https://github.com/JeffSmith-ok/Module_1_Challenge.git
+
+cd Module_1_Challenge
+
 python loan_analyzer.py
 
 ```
