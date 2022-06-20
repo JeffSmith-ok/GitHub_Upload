@@ -68,10 +68,11 @@ loan = {
 # YOUR CODE HERE!
 
 future_value = loan.get("future_value")
-print(f"The future value of the loans is: {future_value}")
+print(f"The future value of the loan is: ${future_value}")
 remaining_months = loan.get("remaining_months")
 loan_price = loan.get("loan_price")
 print(f"The loan_price is equal to: ${loan_price}")
+
 # @TODO: Use the formula for Present Value to calculate a "fair value" of the loan.
 # Use a minimum required return of 20% as the discount rate.
 #   You'll want to use the **monthly** version of the present value formula.
@@ -87,7 +88,7 @@ print(f"The fair or present value of the loan is: ${present_value: .2f}")
 #    Else, the present value of the loan is less than the loan cost, then print a message that says that the loan is too expensive and not worth the price.
 # YOUR CODE HERE!
 if present_value >= loan_price:
-    print(f"Because the preseent value is greater than or equal to the loan_price, the loan is worth at least the cost to buy it")
+    print(f"Because the preseent value is greater than or equal to the loan price, the loan is worth at least the cost to buy it")
 else:
     print(f"The present value of the loan is less than the loan cost, the loan is too expensive and not worth the price")
 """Part 3: Perform Financial Calculations.
@@ -116,9 +117,10 @@ new_loan = {
 
 
 def present_value(future_value, remaining_months, annual_discount_rate):
-    fair_value = future_value/(1 + annual_discount_rate/12)**remaining_months
-    print(fair_value)
-    return fair_value
+    present_value = future_value / \
+        (1 + annual_discount_rate/12)**remaining_months
+    # print(present_value)
+    return present_value
 # @TODO: Use the function to calculate the present value of the new loan given below.
 #    Use an `annual_discount_rate` of 0.2 for this new loan calculation.
 # YOUR CODE HERE!
@@ -206,8 +208,6 @@ output_path = Path("inexpensive_loans.csv")
 # YOUR CODE HERE!
 with open(output_path, 'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile, delimiter=",")
-
     csvwriter.writerow(header)
-
     for item in inexpensive_loans:
         csvwriter.writerow(item.values())
