@@ -10,7 +10,7 @@ Firstly, I will start some calculations on a list of prices for 5 loans.
 2. Use the `sum` function to calculate the total of all loans in the list.
 3. Using the sum of all loans and the total number of loans, calculate the average loan price. 4. Print all calculations with descriptive messages.
 
-"""Part 2: Analyze Loan Data.
+Part 2: Analyze Loan Data.
 
 Secondly, I will analyze the loan to determine the investment evaluation.
 
@@ -38,9 +38,7 @@ Perform financial calculations using functions.
 2. Use the function to calculate the present value of the new loan given below.
    a. Use an `annual_discount_rate` of 0.2 for this new loan calculation.
 
-"""
-
-"""Part 4: Conditionally filter lists of loans.
+Part 4: Conditionally filter lists of loans.
 
 In this section, you will use a loop to iterate through a series of loans and select only the inexpensive loans.
 
