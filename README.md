@@ -30,7 +30,7 @@ If Present Value represents the loan's fair value (given the required minimum re
 
 Part 3: Perform Financial Calculations.
 
-Perform financial calculations using functions.
+Thirdly, perform financial calculations using functions.
 
 1. Define a new function that will be used to calculate present value.
    a. This function should include parameters for `future_value`, `remaining_months`, and the `annual_discount_rate`
@@ -40,7 +40,7 @@ Perform financial calculations using functions.
 
 Part 4: Conditionally filter lists of loans.
 
-In this section, you will use a loop to iterate through a series of loans and select only the inexpensive loans.
+Fourthly, In this section, you will use a loop to iterate through a series of loans and select only the inexpensive loans.
 
 1. Create a new, empty list called `inexpensive_loans`.
 2. Use a for loop to select each loan from a list of loans.
@@ -50,9 +50,9 @@ In this section, you will use a loop to iterate through a series of loans and se
 
 """
 
-"""Part 5: Save the results.
+Part 5: Save the results.
 
-Output this list of inexpensive loans to a csv file 1. Use `with open` to open a new CSV file.
+Finally, output this list of inexpensive loans to a csv file 1. Use `with open` to open a new CSV file.
 a. Create a `csvwriter` using the `csv` library.
 b. Use the new csvwriter to write the header variable as the first row.
 c. Use a for loop to iterate through each loan in `inexpensive_loans`.
