@@ -87,7 +87,7 @@ python loan_analyzer.py
 
 ## Usage
 
-## ![Screenshot of the loan_analyzer.py and the gitbash terminal](<images/Screenshot(5).jpg>)
+## ![Screenshot of the loan_analyzer.py and the gitbash terminal](images/Screenshot_Master.jpg)
 
 ## Contributors
 
