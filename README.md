@@ -1,6 +1,6 @@
 # First Challenge Project at Columbia Engineering Fintech Program: Valuing Microcredit Loans for a Lending Startup
 
-In this project, I will do the following:
+In this project, I will do the following, based on the requirements provided by the Columbia Engineering Fintech Bootcamp:
 
 Part 1: Automate the Calculations.
 
