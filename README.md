@@ -28,7 +28,7 @@ Secondly, I will analyze the loan to determine the investment evaluation.
 @NOTE:
 If Present Value represents the loan's fair value (given the required minimum return of 20%), does it make sense to buy the loan at its current cost?
 
-"""Part 3: Perform Financial Calculations.
+Part 3: Perform Financial Calculations.
 
 Perform financial calculations using functions.
 
@@ -103,6 +103,8 @@ Phone: 332 238 5209
 
 MIT License
 
+Copyright (c) 2022 Jeffrey M. Smith
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -120,5 +122,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-Copyright (c) 2022 Jeffrey M. Smith
